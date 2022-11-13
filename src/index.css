@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid lightblue;
+}
+.navbar h1 {
+  color: dodgerblue;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: fuchsia;
+  /* border: 1px solid dodgerblue; */
+}
+.main {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #dce9fa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgb(160, 156, 156);
+}
+.blog-preview h2 {
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: dodgerblue;
+}
+.blog-preview a {
+  text-decoration: none;
+}
+#blog-list {
+  color: rgb(77, 72, 74);
+}
+/* blog-details styling */
+.blog-details h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+/* New blog styling */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  display: block;
+  text-align: left;
+}
+.create h2,
+.login h2,
+.register h2,
+.profile h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.create input,
+.create textarea,
+.register textarea,
+.profile textarea,
+.create select,
+.register select,
+.profile select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button,
+.login-button,
+.register button,
+.profile button {
+  border-radius: 6px;
+  margin: 10px;
+  width: 50%;
+  padding: 8px;
+  border: 0;
+  color: #fff;
+  background-color: dodgerblue;
+  cursor: pointer;
+}
+.login,
+.register,
+.profile {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.login label,
+.register label,
+.profile label {
+  display: block;
+  text-align: left;
+  color: dodgerblue;
+  font-size: larger;
+  font-weight: bold;
+}
+.login input,
+.register input,
+.profile input {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 20px;
+}
+.login a,
+.register a,
+.profile a {
+  color: blue;
+  font-size: 20px;
+  text-decoration: none;
+}
+.delete-blog {
+  border-radius: 6px;
+  padding: 8px;
+  border: 0;
+  color: #fff;
+  background-color: red;
+  cursor: pointer;
+}
+.image {
+  width: 10%;
+  border-radius: 50%;
+}
